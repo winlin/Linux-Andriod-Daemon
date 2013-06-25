@@ -1,6 +1,3 @@
-/*
- * This demo realize a concurrent-commit task daemon with a task queue
- * */
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
