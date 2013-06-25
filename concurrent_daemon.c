@@ -53,7 +53,6 @@ void pushqueue(taskqueue *tqueue, task *tsk)
 	tqueue->tail = tsk;
 	tqueue->count++;
 }
-
 task *popqueue(taskqueue *tqueue)
 {
 	if(tqueue->count == 0)
